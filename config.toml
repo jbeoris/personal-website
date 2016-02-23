@@ -1,4 +1,4 @@
-baseurl = "https://jackbeoris.me/"
+baseurl = "http://www.jackbeoris.me/"
 languageCode = "en-us"
 title = "Jack Beoris"
 theme = "hugo-strata-theme"
@@ -18,7 +18,7 @@ theme = "hugo-strata-theme"
 		avatar = "headshot.jpg"
 		background = "santa_monica.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Co-Founder and CTO**, of a live<br> streaming plaformed exclusively<br> crafted for musicians. Feel free to<br> check it out at [Krue TV](https://krue.tv)."
+		bio = "**Co-Founder and CTO**, of a live<br> streaming plaform exclusively<br> crafted for musicians. Feel free to<br> check it out at [Krue TV](https://krue.tv)."
 		# The icons will be shown if you enter your username
 		twitter = "JackBeoris"
 		github = "jbeoris"
@@ -26,8 +26,7 @@ theme = "hugo-strata-theme"
 
 		copyright = [
 			"&copy; Jack Beoris",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"Built With: [HUGO](//gohugo.io)"
 		]
 
 
