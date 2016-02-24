@@ -1,4 +1,4 @@
-baseurl = "http://www.jackbeoris.me/"
+baseurl = "https://www.jackbeoris.me/"
 languageCode = "en-us"
 title = "Jack Beoris"
 theme = "hugo-strata-theme"
