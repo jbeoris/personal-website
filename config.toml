@@ -10,7 +10,7 @@ theme = "hugo-strata-theme"
 	description = "Person website of a full-stack software engineer."
 
 	# Enable Google Analytics by inserting your tracking code
-	googleAnalytics = ""
+	googleAnalytics = "UA-55146606-3"
 
 
 	[params.sidebar]
