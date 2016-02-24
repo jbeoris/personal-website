@@ -50,7 +50,7 @@ theme = "hugo-strata-theme"
 			image = "fulls/02.jpg"
 			thumb = "thumbs/02.jpg"
 			title = "Ya Laugh Ya Lose."
-			description = "A funny picture sharing website designed for sharing on social-media sites."
+			description = "A funny picture website designed for sharing on social-media sites."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/03.jpg"
