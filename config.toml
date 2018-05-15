@@ -7,7 +7,7 @@ theme = "hugo-strata-theme"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Jack Beoris"
-	description = "Person website of a full-stack software engineer."
+	description = "Personal website of a full-stack software engineer."
 
 	# Enable Google Analytics by inserting your tracking code
 	googleAnalytics = "UA-55146606-3"
@@ -18,7 +18,7 @@ theme = "hugo-strata-theme"
 		avatar = "headshot.jpg"
 		background = "santa_monica.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Co-Founder and CTO**, of a live<br> streaming plaform exclusively<br> crafted for musicians. Feel free to<br> check it out at [Krue TV](https://krue.tv)."
+		bio = "**Founder & CTO** at [Babble](https://www.babble.app): A platform crafted to improve the way groups chat."
 		# The icons will be shown if you enter your username
 		twitter = "JackBeoris"
 		github = "jbeoris"
@@ -32,7 +32,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "A little about me"
-		content = "I am a full-stack engineer and graduate of The University of Texas at Austin with two degrees: B.S. in Physics and B.S. in Mathematics. I am passionate about application development, upcoming programming languages, software security, dev-ops, and the future of tech as a whole. Most recently, I co-founded and am the CTO of Krue, a live streaming platform for musicians."
+		content = "I am a full-stack engineer and graduate of The University of Texas at Austin with two degrees: B.S. in Physics and B.S. in Mathematics. I am passionate about application development, the evolution of programming languages and paradigms, and the future of tech as a whole. Most recently, I co-founded and am the CTO of Babble, a platform striving to improve the way groups communicate."
 
 
 	[params.portfolio]
@@ -53,24 +53,24 @@ theme = "hugo-strata-theme"
 			description = "A funny picture website designed for sharing on social-media sites."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "nPerson LLC"
-			description = "Live streaming from your favorite people across the web."
-
-		[[params.portfolio.gallery]]
 			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
+			thumb = "thumbs/07.jpg"
 			title = "Krue TV"
 			description = "Live streaming designed to make experiencing music interactive."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/07.jpg"
+			thumb = "thumbs/08.jpg"
+			title = "Babble"
+			description = "Making group chats better."
 
 	[params.contact]
 		title = "Get In Touch"
 		content = "Feel free to reach out to me on social media as well."
 
 		address = [
-			"520 Broadway",
-			"Santa Monica, CA 90401",
+			"655 Montgomery St.",
+			"San Francisco, CA 94111",
 			"United States"
 		]
 		phone = "832-622-2880"
@@ -86,7 +86,7 @@ theme = "hugo-strata-theme"
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "jack@krue.tv"
+		email = "jack@babble.app"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
