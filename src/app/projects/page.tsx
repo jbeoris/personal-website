@@ -24,6 +24,20 @@ const ProjectsPage = () => {
       link: "https://dropmein.ai",
       imageUrl: "/images/dropmein.jpeg"
     },
+    {
+      title: "Personal Website",
+      description: "What you're viewing right now",
+      tags: ["React", "WebApp"],
+      link: "https://github.com/jbeoris/personal-website",
+      imageUrl: "/images/personal.jpeg"
+    },
+    {
+      title: "Stability AI Node SDK",
+      description: "Node SDK to access Stability AI API",
+      tags: ["TypeScript", "SDK", "NPM"],
+      link: "https://www.npmjs.com/package/stability-ai",
+      imageUrl: "/images/stability.jpeg"
+    },
     // Add more projects as needed
   ]
 
