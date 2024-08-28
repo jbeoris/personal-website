@@ -16,10 +16,10 @@ const AboutPage = () => {
       <section className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4">My Journey</h2>
         <p className="mb-4">
-          As the Co-founder and CTO of EverArt, I'm on a mission to revolutionize generative AI. My passion lies at the intersection of technology and creative expression, where I strive to empower users with innovative tools and seamless workflows on the EverArt platform.
+          As the Co-founder and CTO of EverArt, I&apos;m on a mission to revolutionize generative AI. My passion lies at the intersection of technology and creative expression, where I strive to empower users with innovative tools and seamless workflows on the EverArt platform.
         </p>
         <p>
-          With a background in physics and pure mathematics, I've always been fascinated by difficult and lengthy problems. This led me to co-found EverArt, where we're pushing the boundaries of what's possible in digital asset creation and making it accessible to anyone.
+          With a background in physics and pure mathematics, I&apos;ve always been fascinated by difficult and lengthy problems. This led me to co-found EverArt, where we&apos;re pushing the boundaries of what&apos;s possible in digital asset creation and making it accessible to anyone.
         </p>
       </section>
 
@@ -53,9 +53,9 @@ const AboutPage = () => {
       </section>
 
       <section className="text-center max-w-3xl mx-auto">
-        <h2 className="text-2xl font-semibold mb-4">Let's Connect</h2>
+        <h2 className="text-2xl font-semibold mb-4">Let&apos;s Connect</h2>
         <p className="mb-4">
-          I'm always excited to discuss new ideas, potential collaborations, or just chat about the future of AI.
+          I&apos;m always excited to discuss new ideas, potential collaborations, or just chat about the future of AI.
         </p>
         <div className="flex justify-center space-x-4">
           <Button asChild>

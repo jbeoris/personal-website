@@ -37,7 +37,7 @@ const ContactPage = () => {
     }
     
     if (submitted) {
-        return <p className="text-green-600">Thank you for your message. We'll be in touch soon!</p>
+        return <p className="text-green-600">Thank you for your message. I&apos;ll be in touch soon!</p>
     }
 
     return (
@@ -45,7 +45,7 @@ const ContactPage = () => {
         <section className="text-center">
           <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas or opportunities to be part of your visions.
           </p>
         </section>
   
