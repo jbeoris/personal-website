@@ -54,7 +54,7 @@ const AboutPage = () => {
 
       <section className="text-center max-w-3xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4">Let&apos;s Connect</h2>
-        <p className="mb-4">
+        <p className="mb-6">
           I&apos;m always excited to discuss new ideas, potential collaborations, or just chat about the future of AI.
         </p>
         <div className="flex justify-center space-x-4">
