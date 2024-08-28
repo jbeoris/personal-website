@@ -35,10 +35,6 @@ const ContactPage = () => {
           alert('There was an error submitting the form. Please try again.')
         }
     }
-    
-    if (submitted) {
-        return <p className="text-green-600">Thank you for your message. I&apos;ll be in touch soon!</p>
-    }
 
     return (
       <div className="container mx-auto px-4 py-8 space-y-12">
@@ -75,21 +71,25 @@ const ContactPage = () => {
               <CardTitle>Send Me a Message</CardTitle>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <Label htmlFor="name">Name</Label>
-                  <Input id="name" placeholder="Your Name" required />
-                </div>
-                <div>
-                  <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" placeholder="your@email.com" required />
-                </div>
-                <div>
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea id="message" placeholder="Your message here..." required />
-                </div>
-                <Button type="submit" className="w-full">Send Message</Button>
-              </form>
+                {
+                    submitted ? 
+                    <p>Thank you for your message. <br/>I&apos;ll be in touch soon!</p> :
+                    <form onSubmit={handleSubmit} className="space-y-4">
+                        <div>
+                            <Label htmlFor="name">Name</Label>
+                            <Input id="name" name="name" placeholder="Your Name" required />
+                        </div>
+                        <div>
+                            <Label htmlFor="email">Email</Label>
+                            <Input id="email" name="email" type="email" placeholder="your@email.com" required />
+                        </div>
+                        <div>
+                            <Label htmlFor="message">Message</Label>
+                            <Textarea id="message" name="message" placeholder="Your message here..." required />
+                        </div>
+                        <Button type="submit" className="w-full">Send Message</Button>
+                    </form>
+                }
             </CardContent>
           </Card>
         </div>
