@@ -19,7 +19,7 @@ const ProjectsPage = () => {
     },
     {
       title: "DropMeIn",
-      description: "The most user friendly AI chatbot on iOS and Android",
+      description: "Create amazing AI selfies",
       tags: ["AI", "LLMs", "Mobile"],
       link: "https://dropmein.ai",
       imageUrl: "/images/dropmein.jpeg"
