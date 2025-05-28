@@ -5,7 +5,7 @@ const ProjectsPage = () => {
   const projects = [
     {
       title: "MagicPath",
-      description: "Train AI on any product, style, or mood board",
+      description: "Vibe designing ✨",
       tags: ["AI", "LLMs", "Tech Leadership"],
       link: "https://magicpath.ai",
       imageUrl: "/images/magicpath.jpeg"
