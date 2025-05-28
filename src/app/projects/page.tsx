@@ -4,6 +4,13 @@ import ProjectCard from '@/components/ProjectCard'
 const ProjectsPage = () => {
   const projects = [
     {
+      title: "MagicPath",
+      description: "Train AI on any product, style, or mood board",
+      tags: ["AI", "LLMs", "Tech Leadership"],
+      link: "https://magicpath.ai",
+      imageUrl: "/images/magicpath.jpeg"
+    },
+    {
       title: "EverArt",
       description: "Train AI on any product, style, or mood board",
       tags: ["AI", "Tech Leadership"],

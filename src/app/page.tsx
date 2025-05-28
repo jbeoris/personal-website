@@ -22,7 +22,7 @@ const Home = () => {
         <div className="space-y-4">
           <h1 className="text-4xl font-bold">Jack Beoris</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            Co-founder at EverArt
+            Co-founder at MagicPath
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const Home = () => {
             <Link href="/projects">View Projects</Link>
           </Button>
           <Button asChild variant="outline">
-            <a href="https://everart.ai" target="_blank" rel="noopener noreferrer">Visit EverArt</a>
+            <a href="https://magicpath.ai" target="_blank" rel="noopener noreferrer">Visit MagicPath</a>
           </Button>
         </div>
       </div>

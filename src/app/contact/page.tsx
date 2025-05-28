@@ -61,7 +61,7 @@ const ContactPage = () => {
                 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jackbeoris" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400">linkedin.com/in/jackbeoris</a>
               </p>
               <p>
-                <strong>Company:</strong> <a href="https://everart.ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400">EverArt</a>
+                <strong>Company:</strong> <a href="https://magicpath.ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400">MagicPath</a>
               </p>
             </CardContent>
           </Card>

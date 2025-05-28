@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: "Jack Beoris",
-    description: "Co-founder @ EverArt AI",
+    description: "Co-founder and CTO @MagicPath",
 };
 
 export default function RootLayout({
